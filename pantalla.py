@@ -80,6 +80,7 @@ def actualizar_entradas():
     elif figura == "Triángulo":
         label1.config(text="Lado 1:")
         label2.config(text="Lado 2:")
+        label3.pack(side=tk.LEFT)
         entry2.pack(side=tk.LEFT, padx=5)
         label3.config(text="Lado 3:")
         label3.pack(side=tk.LEFT)
